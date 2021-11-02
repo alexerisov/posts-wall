@@ -27,6 +27,8 @@ rules:
   no-param-reassign: off
   "import/prefer-default-export": off
   "import/no-extraneous-dependencies": off
+  "react/jsx-props-no-spreading": off
+  "@typescript-eslint/explicit-module-boundary-types": off
   linebreak-style: off
 
 parser: "@typescript-eslint/parser"

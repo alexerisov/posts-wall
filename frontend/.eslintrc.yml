@@ -21,6 +21,7 @@ rules:
       printWidth: 80,
       tabWidth: 2,
       arrowParens: avoid,
+      endOfLine: auto,
     }
   arrow-body-style: off
   prefer-arrow-callback: off

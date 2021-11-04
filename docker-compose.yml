@@ -14,6 +14,6 @@ services:
       context: ./backend
     volumes:
       - ./backend/data:/usr/src/app/data
-    command: json-server --port 8081 --host 0.0.0.0 data/data.json
+    command: json-server --port 8081 --host 0.0.0.0 --delay 500 data/data.json
     ports:
       - "8081:8081"
